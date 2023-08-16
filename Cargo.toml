@@ -1,0 +1,24 @@
+[package]
+name = "openctp-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["guotie <guotie.9@gmail.com>"]
+build = "build.rs"
+description = "Rust wrapper for openctp & ctp."
+keywords = ["ctp", "openctp", "china stock"]
+categories = ["finance", "stock", "ctp"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/guotie/openctp-rs"
+documentation = "https://docs.rs/openctp-rs"
+homepage = "https://https://github.com/guotie/openctp-rs"
+rust-version = "1.71"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.66.1"
+cc = "1.0"
+regex = "1.9.3"
